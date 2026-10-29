@@ -1,0 +1,24 @@
+title: Abhay Bestrapalli
+description: ML researcher working on data and evaluations for foundation models.
+author: Abhay Bestrapalli
+email: abhaybestx@gmail.com
+github: abhaybe
+linkedin: abhay-bestrapalli
+
+# Switch to the custom domain later: set url to https://yourdomain.com and add a CNAME file.
+url: https://abhaybe.github.io
+baseurl: ""
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+permalink: /blog/:title/
+
+exclude:
+  - README.md
+  - DOMAIN_SETUP.md
+  - Gemfile
+  - Gemfile.lock
+  - .claude
