@@ -172,3 +172,17 @@ blockquote {
   table { font-size: 0.8rem; }
   th, td { padding: 0.4rem 0.35rem; }
 }
+
+ul.rows { padding: 0; margin: 0; list-style: none; }
+ul.rows li {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+  margin-bottom: 0.55rem;
+}
+ul.rows .sub {
+  display: block;
+  font-size: 0.9rem;
+  color: var(--muted);
+}

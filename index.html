@@ -11,78 +11,30 @@ layout: default
   </p>
   <p>
     I work on the data side of machine learning: building synthetic and post-training data for foundation models,
-    and the evaluations that tell you whether that data actually helped. I'm based in Chicago and looking for
-    ML research roles in data and evals.
+    and the evaluations that tell you whether that data actually helped.
   </p>
-  <p>
-    I graduated from MIT in May 2026 with a B.S. in Computer Science and Engineering + Physics (GPA 4.8/5.0).
-    Before ML, I spent a lot of time on physics and astronomy: I competed for the USA at the International Olympiad
-    on Astronomy and Astrophysics and did undergraduate research with LIGO and TESS.
-  </p>
+  <p>I studied computer science and physics at MIT, graduating in 2026.</p>
 </header>
 
 <section>
   <h2>Experience</h2>
-
-  <div class="entry">
-    <div class="entry-head"><h3>Research Intern, Cartesia</h3><span class="when">May–Aug 2025</span></div>
-    <p>
-      Synthetic data and evals for text-to-speech. Built an acronym-pronunciation dataset end to end
-      (~3,500 terms, 500K transcripts, voice conversion, audio-quality filters) and a 4-tier eval with a held-out
-      set of unseen acronyms; training on it cut WER ~50% on the hard and unseen-acronym tiers, and the data went
-      into the production mix. Also built multilingual WER evals and the team's eval normalization framework.
-    </p>
-  </div>
-
-  <div class="entry">
-    <div class="entry-head"><h3>Research Intern, Together AI</h3><span class="when">May–Aug 2024</span></div>
-    <p>
-      Pretraining-data filtering ablations: trained 1.6B-parameter LLMs on RedPajama-v2 subsets selected by
-      FineWeb-Edu classifier score. Trained fastText quality classifiers, built data-annotation tools on Daft/Ray,
-      and built a synthetic SFT pipeline that crosses document scenarios with personas.
-    </p>
-  </div>
-
-  <div class="entry">
-    <div class="entry-head"><h3>Teaching Assistant, MIT 6.7960 Deep Learning (graduate)</h3><span class="when">Fall 2025</span></div>
-    <p>Mentored student research projects, graded problem sets and projects.</p>
-  </div>
-
-  <div class="entry">
-    <div class="entry-head"><h3>Undergraduate Researcher, LIGO and TESS, MIT</h3><span class="when">2022–2024</span></div>
-    <p>
-      LIGO: applied ML classifiers to a low-latency gravitational-wave detection pipeline.
-      TESS: automated quality flagging of exoplanet light curves.
-    </p>
-  </div>
+  <ul class="rows">
+    <li><span>Research Intern, Cartesia<span class="sub">Synthetic data and evals for text-to-speech</span></span><span class="when">2025</span></li>
+    <li><span>Research Intern, Together AI<span class="sub">Pretraining-data filtering and synthetic fine-tuning data for LLMs</span></span><span class="when">2024</span></li>
+    <li><span>Teaching Assistant, MIT 6.7960 Deep Learning</span><span class="when">2025</span></li>
+    <li><span>Undergraduate Researcher, LIGO and TESS at MIT</span><span class="when">2022–2024</span></li>
+  </ul>
 </section>
 
 <section>
   <h2>Projects</h2>
-
-  <div class="entry">
-    <div class="entry-head"><h3>LLM-Guided Reinforcement Learning</h3><span class="when">2025</span></div>
-    <p>
-      Two low-cost ways to use an LLM inside RL training: a one-action hint when the agent is stuck, and
-      LLM-written reward-shaping code. With PPO on sparse-reward MiniGrid, success rose from 5% to 90% on DoorKey
-      and from 0% to 30% on MultiRoom.
-      <a href="{{ '/blog/llm-guided-rl/' | relative_url }}">Write-up</a> ·
-      <a href="https://github.com/abhaybe/babyai-llm">Code</a>
-    </p>
-  </div>
-
-  <div class="entry">
-    <div class="entry-head"><h3>DynaMO</h3><span class="when">Write-up coming soon</span></div>
-    <p class="muted">Post in progress.</p>
-  </div>
-
-  <div class="entry">
-    <div class="entry-head"><h3>Geodesic Kaleidoscopes</h3><span class="when">HackMIT 2022</span></div>
-    <p>
-      A web app that renders images of light bent near black holes by tracing geodesics in general relativity.
-      <a href="https://github.com/abhaybe/geodesic-kaleidoscopes">Code</a>
-    </p>
-  </div>
+  <ul class="rows">
+    <li>
+      <span><a href="{{ '/blog/llm-guided-rl/' | relative_url }}">LLM-Guided RL</a>: <span class="muted">LLM hints and LLM-written reward shaping for sparse-reward RL</span></span>
+      <span class="when"><a href="https://github.com/abhaybe/babyai-llm">code</a></span>
+    </li>
+    <li><span><a href="https://github.com/abhaybe/geodesic-kaleidoscopes">Geodesic Kaleidoscopes</a>: <span class="muted">rendering light near black holes (HackMIT 2022)</span></span></li>
+  </ul>
 </section>
 
 <section>
